@@ -1,0 +1,102 @@
+body {
+    background-image: url('../images/counter.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: Montserrat;
+    color: black;
+    
+}
+h1 {
+    font-size: 3rem;
+    color: white;
+}
+h2{
+    font-size: 2.5rem;
+    color: white;
+}
+h3 {
+    font-size: 2rem;
+}
+p {
+    font-size: 1rem;
+}
+
+section {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+div.container {
+    max-width: 1440px;
+}
+
+figure {
+border-style: solid;
+border-width: 0.25rem;
+border-radius: 1rem;
+display: inline-block;
+}
+img {
+border-radius: 1rem;
+}
+figcaption {
+    color: orange;
+
+}
+ul, ol {
+background-color: white;
+border-radius: 1rem;
+display: inline-block;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+li {
+color: darkgrey;
+}
+fieldset {
+background-color: white;
+color: black;
+}
+legend {
+font-size: 1.5rem;
+
+}
+input {
+color: orange;
+}
+
+hr {
+border: 3px solid white;
+}
+div.disclaimer {
+    display: flex;
+    justify-content: flex-end;
+
+    background-color:orange;
+}
+
+.grid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.box1, .box2, .box3, .box4 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0.25rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0.25rem;
+}
+
+p.source-link {
+    color: white;
+}
+/*test */
