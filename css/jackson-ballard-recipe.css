@@ -1,0 +1,26 @@
+
+nav {
+display: flex;
+flex-direction: row;
+column-gap: 1rem;
+padding: 1rem;
+}
+body{
+    background-image: url('../images/counter.jpg');
+    background: yellow;
+    color:blue;
+}
+h1, h2, h3{
+    color: red;
+    font-family: "Courier New", Courier, monospace;
+}
+p{
+    color:white;
+    background-color: black;
+}
+figure
+ul
+li
+input{
+    font-family:"Times New Roman", Times, serif
+}
