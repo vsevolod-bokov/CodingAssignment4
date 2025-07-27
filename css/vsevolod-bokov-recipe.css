@@ -8,6 +8,14 @@ body {
     color: black;
     
 }
+/* new nav css */
+nav {
+display: flex;
+flex-direction: row;
+column-gap: 1rem;
+padding: 1rem;
+}
+/* end new nav css */
 h1 {
     font-size: 3rem;
     color: white;
