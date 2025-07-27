@@ -7,16 +7,17 @@ padding: 1rem;
 }
 body{
     background-image: url('../images/counter.jpg');
-    background: yellow;
-    color:blue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
 }
 h1, h2, h3{
     color: red;
     font-family: "Courier New", Courier, monospace;
 }
 p{
-    color:white;
-    background-color: black;
+    color:black;
 }
 figure
 ul
